@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>320</width>
+    <height>240</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>320</width>
+    <height>240</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Attendance</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../images/icon.ico</normaloff>
+    <selectedon>../images/icon.ico</selectedon>../images/icon.ico</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(35, 40, 49);</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>-3</x>
+      <y>-6</y>
+      <width>321</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/background.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushEconomy">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>102</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>Economy</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushPKWU">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>131</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>PKWU</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushIndonesia">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>44</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>Indonesia</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushEnglish">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>73</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>English</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushPhysics">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::StrongFocus</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>Physics</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushMath1">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>44</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>Mat Wajib</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushMath2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>73</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>Mat Pem</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushPAI">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>102</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>PAI</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushHistory">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>131</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>History</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushArt">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>160</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>Art Culture</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushAccount">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>185</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 50, 59);
+color: rgb(200, 200, 200);
+font-size: 12px;
+border: 0px solid;</string>
+    </property>
+    <property name="text">
+     <string>Account</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
